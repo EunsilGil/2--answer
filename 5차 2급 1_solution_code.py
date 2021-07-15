@@ -10,3 +10,10 @@ def solution(ladders, win):
         
     answer = player[win-1]
     return answer
+
+
+ladders = [[1, 2], [3, 4], [2, 3], [4, 5], [5, 6]]
+win = 3
+ret = solution(ladders, win)
+
+print("solution 함수의 반환 값은", ret, "입니다.")

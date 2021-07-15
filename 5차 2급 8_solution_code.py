@@ -7,3 +7,8 @@ def solution(usage):
     else:
         answer = usage * 430
     return answer
+
+usage = 35
+ret = solution(usage)
+
+print("solution 함수의 반환 값은", ret, "입니다.")
