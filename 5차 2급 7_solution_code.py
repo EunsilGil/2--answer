@@ -11,3 +11,8 @@ def solution(stuffs):
     else:
         answer = general_counter
     return answer
+
+stuffs = [5, 3, 4, 2, 3, 2]
+ret = solution(stuffs)
+
+print("solution 함수의 반환 값은", ret, "입니다.")

@@ -6,3 +6,9 @@ def solution(korean, english):
     else:
         answer = math
     return answer
+
+korean = 70
+english = 60
+ret = solution(korean, english)
+
+print("solution 함수의 반환 값은", ret, "입니다.")
