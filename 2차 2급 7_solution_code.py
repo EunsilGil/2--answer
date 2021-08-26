@@ -6,3 +6,9 @@ def solution(value, unit):
         value = (value - 32) / 1.8
     converted = int(value)
     return converted
+
+value = 527
+unit = "C"
+ret = solution(value, unit)
+
+print("solution 함수의 반환 값은", ret, "입니다.")
