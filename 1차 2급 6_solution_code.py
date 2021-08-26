@@ -7,3 +7,8 @@ def solution(number):
                 count += 1
             current = current // 10
     return count
+
+number = 40
+ret = solution(number)
+
+print("Solution: return value of the function is", ret, ".")
