@@ -33,7 +33,7 @@
      *  집중력이 떨어지는 학생들이 많은 분반의 경우, 학생들이 한 문제를 풀고, 바로 풀이하고, 다시 풀고, 풀이하는 형식으로 진행하셔도 괜찮습니다.
   
      *  **학생들이 푼 문제를 바탕으로 문제풀이를 진행합니다.**
-     *  이때, 한가지 유형의 문제만 반복해서 풀지 않도록 [문제 유형정리 표- 미완성](https://github.com/EunsilGil/CosPro2rd_Answer/blob/master/cospro_question_type.md)를 활용하셔도 괜찮습니다.
+     *  이때, 한가지 유형의 문제만 반복해서 풀지 않도록 [문제 유형정리 표](https://github.com/EunsilGil/CosPro2rd_Answer/blob/master/cospro_question_type.md)를 활용하셔도 괜찮습니다.
 
   
 * 5, 6차 (총 2주 수업) 
@@ -45,7 +45,7 @@
 
 * 요약 정리 (총 2주 수업)
   * 각 분반 학생들이 취약한 문제 유형을 한번씩 더 풀어볼 수 있습니다.
-    * [문제 유형정리 표- 미완성](https://github.com/EunsilGil/CosPro2rd_Answer/blob/master/cospro_question_type.md)를 활용하여 학생들이 풀어야 하는 문제를 지정해주시는 것도 좋은 방법입니다.
+    * [문제 유형정리 표](https://github.com/EunsilGil/CosPro2rd_Answer/blob/master/cospro_question_type.md)를 활용하여 학생들이 풀어야 하는 문제를 지정해주시는 것도 좋은 방법입니다.
   * Cos Pro 2급 시험을 치기 직전 수업에서는 [Cos Pro 2급 치트시트](https://github.com/EunsilGil/CosPro2rd_Answer/blob/master/cospro2_cheatsheet.md)를 활용하셔서 유형별 공략법을 짚어주셔도 좋습니다.
     
 
