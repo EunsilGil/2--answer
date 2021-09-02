@@ -4,7 +4,7 @@
 **Cos Pro 2급 Python 문제 해답 모음입니다.**
 
 현재 Cos Pro 2급 가이드 문서는 완성된 것이 아니며, Github에 가장 빠르게 Update될 예정입니다.
-    추후, pdf문서와 notion을 통해 완성본을 배포할 계획입니다.
+    추후, pdf문서와 wiki를 통해 완성본을 배포할 계획입니다.
 
 문제는 [Goorm Edu의 Cos Pro 2급 Python 기출문제](https://edu.goorm.io/lecture/17033/cos-pro-2%EA%B8%89-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C-python) 에서 확인하실 수 있습니다.
 
