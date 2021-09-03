@@ -23,3 +23,15 @@ def solution(n, votes):
         answer = -1
         
     return answer
+
+n1 = 3
+votes1 = [1, 2, 1, 3, 1, 2, 1]
+ret1 = solution(n1, votes1)
+
+print("solution 함수의 반환 값은", ret1, "입니다.")
+
+n2 = 2
+votes2 = [2, 1, 2, 1, 2, 2, 1]
+ret2 = solution(n2, votes2)
+
+print("solution 함수의 반환 값은", ret2, "입니다.")
