@@ -1,4 +1,4 @@
-def solution(height):
+def solution(height):               # 함수 만들기
     count = 0
     dx = [ -1, 1, 0, 0 ]
     dy = [ 0, 0, -1, 1 ]
@@ -12,3 +12,8 @@ def solution(height):
             if is_danger:
                 count += 1
     return count
+
+height = [[3, 6, 2, 8], [7, 3, 4, 2], [8, 6, 7, 3], [5, 3, 2, 9]]
+ret = solution(height)
+
+print("solution 함수의 반환 값은", ret, "입니다.")

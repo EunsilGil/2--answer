@@ -1,5 +1,5 @@
 def solution(calorie):
-	min_cal = 9999
+	min_cal = 9999					# 한줄 수정
 	answer = 0
 	for cal in calorie:
 		if cal > min_cal:

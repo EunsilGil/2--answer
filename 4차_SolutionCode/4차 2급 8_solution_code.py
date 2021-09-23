@@ -15,7 +15,7 @@ def solution(n, votes):
     test_count = 0
     for i in range(0, votes_len) :
         if votes[i] == candidate :
-            test_count += 1
+            test_count += 1             # 한줄 수정
 
     if test_count > votes_len // 2 :
         answer = candidate

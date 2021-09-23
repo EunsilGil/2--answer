@@ -12,7 +12,7 @@ def func_b(scores1, scores2):
 
 def solution(mid_scores, final_scores):
     up = func_a(mid_scores, final_scores)
-    down = func_b(final_scores, mid_scores)
+    down = func_b(final_scores, mid_scores)     # 한줄 수정
     answer = [up, down]
     return answer
 

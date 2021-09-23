@@ -24,9 +24,9 @@ def func_c(scores):
 def solution(scores):
 	answer = 0
 	for my_score in scores:
-		passed = func_c(my_score)
-		non_passed = func_b(my_score)
-		answer += func_a(passed, non_passed)
+		passed = func_c(my_score)				# 빈칸 채우기
+		non_passed = func_b(my_score)			# 빈칸 채우기
+		answer += func_a(passed, non_passed)	# 빈칸 채우기
 	return answer 
 
 scores1 = [[30, 40, 100], [97, 88, 95]]
