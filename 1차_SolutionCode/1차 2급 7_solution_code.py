@@ -1,7 +1,7 @@
 def solution(scores):
     count = 0
-    for i in range(len(scores)):
-        if 650 <= scores[i] < 800:
+    for i in scores:
+        if 650 <= scores[i] < 800:          # 한줄 수정
             count += 1
     return count
 

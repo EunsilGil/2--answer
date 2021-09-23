@@ -1,16 +1,21 @@
-def solution(shirt_size):
-    size_counter = [0 for _ in range(6)]
-    for ss in shirt_size:
-        if ss == "XS":
-            size_counter[0] += 1
-        elif ss == "S":
-            size_counter[1] += 1
-        elif ss == "M":
-            size_counter[2] += 1
-        elif ss == "L":
-            size_counter[3] += 1
-        elif ss == "XL":
-            size_counter[4] += 1
-        elif ss == "XXL":
-            size_counter[5] += 1
-    return size_counter
+def solution(shirt_size):			#함수 만들기
+	answer = [0 for _ in range(6) ]
+	for i in shirt_size:
+		if i == "XS":
+			answer[0] += 1
+		elif i == "S":
+			answer[1] += 1
+		elif i == "M":
+			answer[2] += 1
+		elif i == "L":
+			answer[3] += 1
+		elif i == "XL":
+			answer[4] += 1
+		elif i == "XXL":
+			answer[5] += 1
+	return answer
+
+shirt_size = ["XS", "S", "L", "L", "XL", "S"]
+ret = solution(shirt_size);
+
+print("solution 함수의 반환 값은", ret, "입니다.")

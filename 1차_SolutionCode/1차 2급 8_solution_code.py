@@ -1,7 +1,7 @@
 def solution(sentence):
     str = ''
     for c in sentence:
-        if c != '.' and c != ' ':
+        if c != '.' and c != ' ':       # 한줄 수정
             str += c
     size = len(str)
     for i in range(size // 2):
@@ -9,4 +9,12 @@ def solution(sentence):
             return False
     return True
 
+sentence1 = "never odd or even."
+ret1 = solution(sentence1)
 
+print("solution 함수의 반환 값은", ret1, "입니다.")
+    
+sentence2 = "palindrome"
+ret2 = solution(sentence2)
+
+print("solution 함수의 반환 값은", ret2, "입니다.")

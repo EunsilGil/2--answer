@@ -18,8 +18,13 @@ def func_c(arr):
             ret = x
     return ret
 
-def solution(arr):
-    counter = func_a(arr)
-    max_cnt = func_b(counter)
-    min_cnt = func_c(counter)
+def solution(arr):              
+    counter = func_a(arr)           # 빈칸 채우기
+    max_cnt = func_b(counter)       # 빈칸 채우기
+    min_cnt = func_c(counter)       # 빈칸 채우기
     return max_cnt // min_cnt
+
+arr = [1, 2, 3, 3, 1, 3, 3, 2, 3, 2]
+ret = solution(arr)
+
+print("solution 함수의 반환 값은", ret, "입니다.")
