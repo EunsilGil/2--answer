@@ -3,12 +3,18 @@ def solution(value, unit):
     if unit == "C":
         value = (value * 1.8) + 32
     if unit == "F":
-        value = (value - 32) / 1.8
+        value = (value - 32) / 1.8      # 한줄 수정
     converted = int(value)
     return converted
 
 value = 527
 unit = "C"
+ret = solution(value, unit)
+
+print("solution 함수의 반환 값은", ret, "입니다.")
+
+value = 980
+unit = "F"
 ret = solution(value, unit)
 
 print("solution 함수의 반환 값은", ret, "입니다.")

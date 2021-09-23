@@ -1,11 +1,11 @@
 def solution(attack, recovery, hp):
     count = 0
     while(True):
-        count += 1
-        hp -= attack
+        count += 1          # 빈칸 채우기
+        hp -= attack        # 빈칸 채우기
         if hp <= 0:
-            break
-        hp += recovery
+            break           # 빈칸 채우기
+        hp += recovery      # 빈칸 채우기
     return count
 
 
@@ -14,5 +14,4 @@ recovery = 10
 hp = 60
 ret = solution(attack, recovery, hp)
 
-#[실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
 print("solution 함수의 반환 값은", ret, "입니다.")

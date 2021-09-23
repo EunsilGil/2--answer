@@ -7,7 +7,7 @@ def solution(purchase):
             total += 30000
         elif p >= 400000:
             total += 20000
-        elif p >= 200000:
+        elif p >= 200000:       # 한줄 수정
             total += 10000
     return total
 
