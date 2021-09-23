@@ -23,9 +23,9 @@ def func_c(time_table):
 
 def solution(time_table):
 	answer = 0
-	first_class = func_c(time_table)
-	last_class = func_a(time_table)
-	answer = func_b(time_table, first_class, last_class)
+	first_class = func_c(time_table)						# 빈칸 채우기
+	last_class = func_a(time_table)							# 빈칸 채우기
+	answer = func_b(time_table, first_class, last_class)	# 빈칸 채우기
 	return answer
 
 

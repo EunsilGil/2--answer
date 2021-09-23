@@ -1,4 +1,4 @@
-def solution(score):
+def solution(score):                # 함수 만들기
     answer = [0] * len(score)
     for i in range(len(score)):
         answer[i] = sum(map(lambda x:x > score[i], score))+1

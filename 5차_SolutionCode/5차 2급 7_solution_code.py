@@ -6,7 +6,7 @@ def solution(stuffs):
             general_counter += s
         else:
             small_counter += s
-    if small_counter > general_counter:
+    if small_counter > general_counter:     # 한줄 수정
         answer = small_counter
     else:
         answer = general_counter

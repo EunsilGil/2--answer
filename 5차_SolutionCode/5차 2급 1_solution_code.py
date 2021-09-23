@@ -5,8 +5,8 @@ def solution(ladders, win):
     
     for e in ladders:
         temp = player[e[0]-1]
-        player[e[0]-1] = player[e[1]-1]
-        player[e[1]-1] = temp
+        player[e[0]-1] = player[e[1]-1]     # 빈칸 채우기
+        player[e[1]-1] = temp               # 빈칸 채우기
         
     answer = player[win-1]
     return answer

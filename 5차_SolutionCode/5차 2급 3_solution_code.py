@@ -3,9 +3,9 @@ def solution(speed, cars):
     for x in cars:
         if x >= speed * 11 / 10 and x < speed * 12 / 10:
             answer += 3;
-        elif x >= speed * 12 / 10 and x < speed * 13 / 10:
+        elif x >= speed * 12 / 10 and x < speed * 13 / 10:      # 빈칸 채우기
             answer += 5;
-        elif x >= speed * 13 / 10:
+        elif x >= speed * 13 / 10:                              # 빈칸 채우기
             answer += 7;
     return answer
 
