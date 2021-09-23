@@ -22,8 +22,18 @@ def func_c(number, digit):
     return ret
 
 def solution(number):
-    answer = 0
-    digit = func_b(number)
-    convert_number = func_c(number, digit)
-    answer = func_a(number, convert_number)
+    answer = 0  
+    digit = func_b(number)                      # 빈칸 채우기
+    convert_number = func_c(number, digit)      # 빈칸 채우기
+    answer = func_a(number, convert_number)     # 빈칸 채우기
     return answer
+
+number1 = 120
+ret1 = solution(number1)
+
+print("solution 함수의 반환 값은", ret1, "입니다.")
+
+number2 = 23
+ret2 = solution(number2)
+
+print("solution 함수의 반환 값은", ret2, "입니다.")

@@ -3,7 +3,7 @@ def solution(papers, K):
     for i, paper in enumerate(papers):
         K -= paper
         if K < 0:
-            return i
+            return i        # 한줄 수정
     return length
 
 papers1 = [2, 4, 2, 3, 1]

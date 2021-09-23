@@ -1,4 +1,4 @@
-def solution(cards):
+def solution(cards):            # 함수 만들기
     answer = 0
     count = [0 for _ in range(3)]
     for card in cards:

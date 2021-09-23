@@ -2,8 +2,8 @@ def solution(money, chairs, desks):
     answer = 0
     for chair in chairs:
         for desk in desks:
-            price = chair + desk
-            if answer < price and price <= money:
+            price = chair + desk                    # 빈칸 채우기
+            if answer < price and price <= money:   # 빈칸 채우기
                 answer = price
     return answer
 

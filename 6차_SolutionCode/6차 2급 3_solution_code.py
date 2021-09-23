@@ -1,4 +1,4 @@
-def solution(people):
+def solution(people):           # 함수 만들기
     answer = [0 for _ in range(4)]
     for p in people:
         if p < 95:

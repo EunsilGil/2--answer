@@ -4,5 +4,10 @@ def solution(socks):
     for s in socks:
         count[s] += 1
     for c in count:
-        answer += (c // 2)
+        answer += (c // 2)      # 한줄 수정
     return answer
+
+socks = [1, 2, 1, 3, 2, 1]
+ret = solution(socks)
+
+print("solution 함수의 반환 값은", ret, "입니다.")
