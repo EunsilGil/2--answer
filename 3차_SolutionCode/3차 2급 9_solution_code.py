@@ -1,7 +1,7 @@
 def solution(day, numbers):
     count = 0
     for number in numbers:
-        if number%2 == day%2:
+        if number%2 == day%2:           # 한줄 수정
             count += 1
     return count
 

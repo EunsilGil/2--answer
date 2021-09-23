@@ -1,4 +1,4 @@
-def solution(words, word):
+def solution(words, word):              # 함수 만들기
     count = 0
     
     for comp in words:

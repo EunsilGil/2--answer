@@ -1,10 +1,10 @@
-def solution(length):
+def solution(tile_length):
     answer = ''
     com = 'RRRGGB'
-    if length%6 == 1 or length%6 == 2 or length%6 == 4:
+    if tile_length%6 == 1 or tile_length%6 == 2 or tile_length%6 == 4:     # 빈칸 채우기
         answer = '-1'
     else:
-        for i in range(length):
+        for i in range(tile_length):
             answer+=com[i % 6]
     return answer
 

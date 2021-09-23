@@ -27,7 +27,13 @@ def func_c(current_grade, last_grade):
     return max_diff_grade
 
 def solution(current_grade, last_grade):
-    rank = func_b(current_grade)
-    max_diff_grade = func_c(current_grade, last_grade)
-    answer = func_a(current_grade, last_grade, rank, max_diff_grade)
-    return answer
+    rank = func_b(current_grade)                                        # 빈칸 채우기
+    max_diff_grade = func_c(current_grade, last_grade)                  # 빈칸 채우기
+    answer = func_a(current_grade, last_grade, rank, max_diff_grade)    # 빈칸 채우기
+    return answer   
+
+current_grade = [70, 100, 70, 80, 50, 95]
+last_grade = [35, 65, 80, 50, 20, 60]
+ret = solution(current_grade, last_grade)
+
+print("solution 함수의 반환 값은", ret, "입니다.")

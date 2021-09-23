@@ -7,7 +7,13 @@ def solution(tv):
             used_tv[i] = used_tv[i] + 1
     
     for i in used_tv:
-        if i >= 2:
+        if i >= 2:                  # 한줄 수정
             answer = answer + 1
             
     return answer
+
+
+programs = [[1, 6], [3, 5], [2, 8]]
+ret = solution(programs)
+
+print("solution 함수의 반환 값은", ret, "입니다.")

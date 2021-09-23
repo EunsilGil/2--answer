@@ -12,11 +12,11 @@ def solution(member_age, transportation):
 		child_expense = 45000
 
 	if len(member_age) >= 10:
-		adult_expense = adult_expense / 10 * 9
-		child_expense = child_expense / 10 * 8
+		adult_expense = adult_expense / 10 * 9		# 빈칸 채우기	
+		child_expense = child_expense / 10 * 8		# 빈칸 채우기
 
 	for age in member_age:
-		if age > 19:
+		if age > 19:								# 빈칸 채우기
 			answer += adult_expense
 		else:
 			answer += child_expense
